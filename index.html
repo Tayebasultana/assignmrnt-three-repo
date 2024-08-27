@@ -31,10 +31,11 @@
         }
     </style>
 </head>
-<body class="font-Manrope text-black max-w-screen-xl mx-auto bg-white">
+<body class="font-Manrope text-black  bg-white">
+
     <header>
         <navbar>
-            <div class="navbar bg-white  ">
+            <div class="navbar bg-white lg:px-32 ">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -92,7 +93,7 @@
               </div>
         </navbar>
         <banner>
-            <div class="py-10">
+            <div class="py-10 lg:px-32">
                 <div>
                     <img src="assets/banner.png" alt="" class="mx-auto mb-2">
                 </div>
@@ -104,14 +105,16 @@
             </div>
         </banner>
       </header>
+
     <main>
+
        <section>
-        <div class="flex  bg-gray-200 gap-10 py-20 relative px-2">
+        <div class="lg:flex  bg-gray-200 gap-10 py-20 relative lg:px-32">
           <div>
-            <div class="absolute top-2"><img src="assets/Vector.png" alt=""></div>
+            <div class="absolute top-2 "><img src="assets/Vector.png" alt=""></div>
             <div class="mb-5">
               <button class="btn bg-white text-black border-none mb-5">About Us</button>
-              <h1 class=" text-4xl font-bold">We design thoughtful, liveable spaces</h1>
+              <h1 class=" text-4xl font-bold mb-5">We design thoughtful, liveable spaces</h1>
               <p class="text-gray-600">The barn house captivates with its blend of rustic charm and 
                 modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
@@ -130,19 +133,20 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="mt-5">
             <img src="assets/Rectangle.png" alt="">
           </div>
         </div>
        </section>
+
        <section>
-        <div class="bg-gray-200 py-10">
+        <div class="bg-gray-200 py-10 lg:px-32">
           <div class="text-center mb-10">
-            <button class="btn bg-white text-black border-none">How we works</button>
+            <button class="btn bg-white text-black border-none mb-5">How we works</button>
             <h2 class="text-3xl md:text-4xl font-bold mb-2">Our Works Process</h2>
             <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
-          <div class="grid grid-cols-4 gap-4 px-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-2">
              <div class="bg-pink-200 rounded-2xl p-6">
                 <div><img src="assets/concept.png" alt=""></div>
                 <div>
@@ -174,8 +178,9 @@
           </div>
         </div>
        </section>
+
        <section>
-        <div class="bg-[url('/assets/bg.jpg')] bg-cover bg-center  w-full py-16">
+        <div class="bg-[url('/assets/bg.jpg')] bg-cover bg-center  w-full py-16 lg:px-32">
           <div>
             <div class="text-center mb-10">
               <button class="btn bg-white text-black border-none mb-5">How we works</button>
@@ -183,7 +188,7 @@
               <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
 
-            <div class="grid grid-cols-2 gap-5 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
               <input type="text" placeholder="First Name*" class="p-4 bg-white rounded-full">
               <input type="text" placeholder="Last Name*" class="p-4 bg-white rounded-full">
               <input type="text" placeholder="Phone Number*" class="p-4 bg-white rounded-full">
@@ -201,10 +206,21 @@
           </div>
         </div>
        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer footer-center bg-gray-800 text-primary-content p-16 lg:px-32">
+          <p class="text-gray-600">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-10 justify-between">
+            <a href="" class="text-white">Home</a>
+            <a href="" class="text-white">Services</a>
+            <a href="" class="text-white">Portfolio</a>
+            <a href="" class="text-white">Blogs</a>
+            <a href="" class="text-white">Contact Us</a>
+          </div>
+   </footer>
 
-    </footer>
 </body>
 </html>
